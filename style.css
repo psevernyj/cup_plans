@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+
+}
+.header{
+    background-image: url("images/backgrounds/yellowbkgnd.png");
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+}
+.bronze{
+    background-image: url("images/backgrounds/whitebkgnd.png");
+    width: 360px; height: 441px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    transition: 1s;
+
+}
+.gold{
+    background-image: url("images/backgrounds/whitebkgnd.png");
+    width: 360px; height: 441px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 1s;
+}
+.silver{
+    background-image: url("images/backgrounds/whitebkgnd.png");
+    width: 360px; height: 441px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 1s;
+}
+.number{
+    font-family: Georgia;
+    font-size: 50pt;
+    color: rgba(2, 153, 91, 255);
+    margin-top: 38px;
+}
+h1{
+    font-family: Georgia;
+    font-size:20pt;
+    color: rgba(51, 51, 51, 255);
+}
+.info{
+    font-family: Georgia;
+    font-size: 18pt;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+    margin-bottom:36px;
+}
+.silver:hover{
+    transform: scale(1.2);
+
+}
+.gold:hover{
+    transform: scale(1.2);
+
+}.bronze:hover{
+     transform: scale(1.2);
+
+ }
